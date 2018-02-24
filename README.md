@@ -67,3 +67,11 @@ The entire command would be:
 
 `docker run -d -p 80:80 -v $("pwd")/data.json:/usr/share/nginx/html/data/data.json -v $("pwd")/images:/usr/share/nginx/html/images mastermindzh/servicehub`
 
+### Updating a live instance
+In order to update a live instance you have to create a data folder with a data.json file in it and mount that instead of the data.json file.
+
+The command would look like this:
+```
+docker run -d -p 80:80 -v $("pwd")/data:/usr/share/nginx/html/data/ mastermindzh/servicehub
+```
+
