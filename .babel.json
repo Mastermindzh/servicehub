@@ -1,0 +1,793 @@
+{
+  "{\"filename\":\"/app/tools/srcServer.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"transforms\":[{\"transform\":\"/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/tools\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "browser-sync",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "browserSync"
+              }
+            ]
+          },
+          {
+            "source": "connect-history-api-fallback",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "historyApiFallback"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "webpack-dev-middleware",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpackDevMiddleware"
+              }
+            ]
+          },
+          {
+            "source": "webpack-hot-middleware",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpackHotMiddleware"
+              }
+            ]
+          },
+          {
+            "source": "../webpack.config.dev",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/tools/srcServer.js",
+      "filenameRelative": "/app/tools/srcServer.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "srcServer.js",
+      "sourceFileName": "srcServer.js",
+      "sourceRoot": "/app/tools",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/tools",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "srcServer"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _browserSync = require('browser-sync');\n\nvar _browserSync2 = _interopRequireDefault(_browserSync);\n\nvar _connectHistoryApiFallback = require('connect-history-api-fallback');\n\nvar _connectHistoryApiFallback2 = _interopRequireDefault(_connectHistoryApiFallback);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _webpackDevMiddleware = require('webpack-dev-middleware');\n\nvar _webpackDevMiddleware2 = _interopRequireDefault(_webpackDevMiddleware);\n\nvar _webpackHotMiddleware = require('webpack-hot-middleware');\n\nvar _webpackHotMiddleware2 = _interopRequireDefault(_webpackHotMiddleware);\n\nvar _webpackConfig = require('../webpack.config.dev');\n\nvar _webpackConfig2 = _interopRequireDefault(_webpackConfig);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// This file configures the development web server\n// which supports hot reloading and synchronized testing.\n\n// Require Browsersync along with webpack and middleware for it\nvar bundler = (0, _webpack2.default)(_webpackConfig2.default);\n\n// Run Browsersync and use middleware for Hot Module Replacement\n\n// Required for react-router browserHistory\n// see https://github.com/BrowserSync/browser-sync/issues/204#issuecomment-102623643\n(0, _browserSync2.default)({\n  port: 3000,\n  ui: {\n    port: 3001\n  },\n  server: {\n    baseDir: 'src',\n\n    middleware: [(0, _connectHistoryApiFallback2.default)(), (0, _webpackDevMiddleware2.default)(bundler, {\n      // Dev middleware can't access config, so we provide publicPath\n      publicPath: _webpackConfig2.default.output.publicPath,\n\n      // These settings suppress noisy webpack output so only errors are displayed to the console.\n      noInfo: true,\n      quiet: false,\n      stats: {\n        assets: false,\n        colors: true,\n        version: false,\n        hash: false,\n        timings: false,\n        chunks: false,\n        chunkModules: false\n      }\n\n      // for other settings see\n      // https://webpack.js.org/guides/development/#using-webpack-dev-middleware\n    }),\n\n    // bundler should be the same as above\n    (0, _webpackHotMiddleware2.default)(bundler)]\n  },\n\n  // no need to watch '*.js' here, webpack will take care of it for us,\n  // including full page reloads if HMR won't work\n  files: ['src/*.html']\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyY1NlcnZlci5qcyJdLCJuYW1lcyI6WyJidW5kbGVyIiwicG9ydCIsInVpIiwic2VydmVyIiwiYmFzZURpciIsIm1pZGRsZXdhcmUiLCJwdWJsaWNQYXRoIiwib3V0cHV0Iiwibm9JbmZvIiwicXVpZXQiLCJzdGF0cyIsImFzc2V0cyIsImNvbG9ycyIsInZlcnNpb24iLCJoYXNoIiwidGltaW5ncyIsImNodW5rcyIsImNodW5rTW9kdWxlcyIsImZpbGVzIl0sIm1hcHBpbmdzIjoiOztBQUlBOzs7O0FBR0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBWEE7QUFDQTs7QUFFQTtBQVVBLElBQU1BLFVBQVUsK0NBQWhCOztBQUVBOztBQVZBO0FBQ0E7QUFVQSwyQkFBWTtBQUNWQyxRQUFNLElBREk7QUFFVkMsTUFBSTtBQUNGRCxVQUFNO0FBREosR0FGTTtBQUtWRSxVQUFRO0FBQ05DLGFBQVMsS0FESDs7QUFHTkMsZ0JBQVksQ0FDViwwQ0FEVSxFQUdWLG9DQUFxQkwsT0FBckIsRUFBOEI7QUFDNUI7QUFDQU0sa0JBQVksd0JBQU9DLE1BQVAsQ0FBY0QsVUFGRTs7QUFJNUI7QUFDQUUsY0FBUSxJQUxvQjtBQU01QkMsYUFBTyxLQU5xQjtBQU81QkMsYUFBTztBQUNMQyxnQkFBUSxLQURIO0FBRUxDLGdCQUFRLElBRkg7QUFHTEMsaUJBQVMsS0FISjtBQUlMQyxjQUFNLEtBSkQ7QUFLTEMsaUJBQVMsS0FMSjtBQU1MQyxnQkFBUSxLQU5IO0FBT0xDLHNCQUFjO0FBUFQ7O0FBVVA7QUFDQTtBQWxCNEIsS0FBOUIsQ0FIVTs7QUF3QlY7QUFDQSx3Q0FBcUJqQixPQUFyQixDQXpCVTtBQUhOLEdBTEU7O0FBcUNWO0FBQ0E7QUFDQWtCLFNBQU8sQ0FDTCxZQURLO0FBdkNHLENBQVoiLCJmaWxlIjoic3JjU2VydmVyLmpzIiwic291cmNlUm9vdCI6Ii9hcHAvdG9vbHMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUaGlzIGZpbGUgY29uZmlndXJlcyB0aGUgZGV2ZWxvcG1lbnQgd2ViIHNlcnZlclxuLy8gd2hpY2ggc3VwcG9ydHMgaG90IHJlbG9hZGluZyBhbmQgc3luY2hyb25pemVkIHRlc3RpbmcuXG5cbi8vIFJlcXVpcmUgQnJvd3NlcnN5bmMgYWxvbmcgd2l0aCB3ZWJwYWNrIGFuZCBtaWRkbGV3YXJlIGZvciBpdFxuaW1wb3J0IGJyb3dzZXJTeW5jIGZyb20gJ2Jyb3dzZXItc3luYyc7XG4vLyBSZXF1aXJlZCBmb3IgcmVhY3Qtcm91dGVyIGJyb3dzZXJIaXN0b3J5XG4vLyBzZWUgaHR0cHM6Ly9naXRodWIuY29tL0Jyb3dzZXJTeW5jL2Jyb3dzZXItc3luYy9pc3N1ZXMvMjA0I2lzc3VlY29tbWVudC0xMDI2MjM2NDNcbmltcG9ydCBoaXN0b3J5QXBpRmFsbGJhY2sgZnJvbSAnY29ubmVjdC1oaXN0b3J5LWFwaS1mYWxsYmFjayc7XG5pbXBvcnQgd2VicGFjayBmcm9tICd3ZWJwYWNrJztcbmltcG9ydCB3ZWJwYWNrRGV2TWlkZGxld2FyZSBmcm9tICd3ZWJwYWNrLWRldi1taWRkbGV3YXJlJztcbmltcG9ydCB3ZWJwYWNrSG90TWlkZGxld2FyZSBmcm9tICd3ZWJwYWNrLWhvdC1taWRkbGV3YXJlJztcbmltcG9ydCBjb25maWcgZnJvbSAnLi4vd2VicGFjay5jb25maWcuZGV2JztcblxuY29uc3QgYnVuZGxlciA9IHdlYnBhY2soY29uZmlnKTtcblxuLy8gUnVuIEJyb3dzZXJzeW5jIGFuZCB1c2UgbWlkZGxld2FyZSBmb3IgSG90IE1vZHVsZSBSZXBsYWNlbWVudFxuYnJvd3NlclN5bmMoe1xuICBwb3J0OiAzMDAwLFxuICB1aToge1xuICAgIHBvcnQ6IDMwMDFcbiAgfSxcbiAgc2VydmVyOiB7XG4gICAgYmFzZURpcjogJ3NyYycsXG5cbiAgICBtaWRkbGV3YXJlOiBbXG4gICAgICBoaXN0b3J5QXBpRmFsbGJhY2soKSxcblxuICAgICAgd2VicGFja0Rldk1pZGRsZXdhcmUoYnVuZGxlciwge1xuICAgICAgICAvLyBEZXYgbWlkZGxld2FyZSBjYW4ndCBhY2Nlc3MgY29uZmlnLCBzbyB3ZSBwcm92aWRlIHB1YmxpY1BhdGhcbiAgICAgICAgcHVibGljUGF0aDogY29uZmlnLm91dHB1dC5wdWJsaWNQYXRoLFxuXG4gICAgICAgIC8vIFRoZXNlIHNldHRpbmdzIHN1cHByZXNzIG5vaXN5IHdlYnBhY2sgb3V0cHV0IHNvIG9ubHkgZXJyb3JzIGFyZSBkaXNwbGF5ZWQgdG8gdGhlIGNvbnNvbGUuXG4gICAgICAgIG5vSW5mbzogdHJ1ZSxcbiAgICAgICAgcXVpZXQ6IGZhbHNlLFxuICAgICAgICBzdGF0czoge1xuICAgICAgICAgIGFzc2V0czogZmFsc2UsXG4gICAgICAgICAgY29sb3JzOiB0cnVlLFxuICAgICAgICAgIHZlcnNpb246IGZhbHNlLFxuICAgICAgICAgIGhhc2g6IGZhbHNlLFxuICAgICAgICAgIHRpbWluZ3M6IGZhbHNlLFxuICAgICAgICAgIGNodW5rczogZmFsc2UsXG4gICAgICAgICAgY2h1bmtNb2R1bGVzOiBmYWxzZVxuICAgICAgICB9LFxuXG4gICAgICAgIC8vIGZvciBvdGhlciBzZXR0aW5ncyBzZWVcbiAgICAgICAgLy8gaHR0cHM6Ly93ZWJwYWNrLmpzLm9yZy9ndWlkZXMvZGV2ZWxvcG1lbnQvI3VzaW5nLXdlYnBhY2stZGV2LW1pZGRsZXdhcmVcbiAgICAgIH0pLFxuXG4gICAgICAvLyBidW5kbGVyIHNob3VsZCBiZSB0aGUgc2FtZSBhcyBhYm92ZVxuICAgICAgd2VicGFja0hvdE1pZGRsZXdhcmUoYnVuZGxlcilcbiAgICBdXG4gIH0sXG5cbiAgLy8gbm8gbmVlZCB0byB3YXRjaCAnKi5qcycgaGVyZSwgd2VicGFjayB3aWxsIHRha2UgY2FyZSBvZiBpdCBmb3IgdXMsXG4gIC8vIGluY2x1ZGluZyBmdWxsIHBhZ2UgcmVsb2FkcyBpZiBITVIgd29uJ3Qgd29ya1xuICBmaWxlczogW1xuICAgICdzcmMvKi5odG1sJ1xuICBdXG59KTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "srcServer.js"
+      ],
+      "names": [
+        "bundler",
+        "port",
+        "ui",
+        "server",
+        "baseDir",
+        "middleware",
+        "publicPath",
+        "output",
+        "noInfo",
+        "quiet",
+        "stats",
+        "assets",
+        "colors",
+        "version",
+        "hash",
+        "timings",
+        "chunks",
+        "chunkModules",
+        "files"
+      ],
+      "mappings": ";;AAIA;;;;AAGA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAXA;AACA;;AAEA;AAUA,IAAMA,UAAU,+CAAhB;;AAEA;;AAVA;AACA;AAUA,2BAAY;AACVC,QAAM,IADI;AAEVC,MAAI;AACFD,UAAM;AADJ,GAFM;AAKVE,UAAQ;AACNC,aAAS,KADH;;AAGNC,gBAAY,CACV,0CADU,EAGV,oCAAqBL,OAArB,EAA8B;AAC5B;AACAM,kBAAY,wBAAOC,MAAP,CAAcD,UAFE;;AAI5B;AACAE,cAAQ,IALoB;AAM5BC,aAAO,KANqB;AAO5BC,aAAO;AACLC,gBAAQ,KADH;AAELC,gBAAQ,IAFH;AAGLC,iBAAS,KAHJ;AAILC,cAAM,KAJD;AAKLC,iBAAS,KALJ;AAMLC,gBAAQ,KANH;AAOLC,sBAAc;AAPT;;AAUP;AACA;AAlB4B,KAA9B,CAHU;;AAwBV;AACA,wCAAqBjB,OAArB,CAzBU;AAHN,GALE;;AAqCV;AACA;AACAkB,SAAO,CACL,YADK;AAvCG,CAAZ",
+      "file": "srcServer.js",
+      "sourceRoot": "/app/tools",
+      "sourcesContent": [
+        "// This file configures the development web server\n// which supports hot reloading and synchronized testing.\n\n// Require Browsersync along with webpack and middleware for it\nimport browserSync from 'browser-sync';\n// Required for react-router browserHistory\n// see https://github.com/BrowserSync/browser-sync/issues/204#issuecomment-102623643\nimport historyApiFallback from 'connect-history-api-fallback';\nimport webpack from 'webpack';\nimport webpackDevMiddleware from 'webpack-dev-middleware';\nimport webpackHotMiddleware from 'webpack-hot-middleware';\nimport config from '../webpack.config.dev';\n\nconst bundler = webpack(config);\n\n// Run Browsersync and use middleware for Hot Module Replacement\nbrowserSync({\n  port: 3000,\n  ui: {\n    port: 3001\n  },\n  server: {\n    baseDir: 'src',\n\n    middleware: [\n      historyApiFallback(),\n\n      webpackDevMiddleware(bundler, {\n        // Dev middleware can't access config, so we provide publicPath\n        publicPath: config.output.publicPath,\n\n        // These settings suppress noisy webpack output so only errors are displayed to the console.\n        noInfo: true,\n        quiet: false,\n        stats: {\n          assets: false,\n          colors: true,\n          version: false,\n          hash: false,\n          timings: false,\n          chunks: false,\n          chunkModules: false\n        },\n\n        // for other settings see\n        // https://webpack.js.org/guides/development/#using-webpack-dev-middleware\n      }),\n\n      // bundler should be the same as above\n      webpackHotMiddleware(bundler)\n    ]\n  },\n\n  // no need to watch '*.js' here, webpack will take care of it for us,\n  // including full page reloads if HMR won't work\n  files: [\n    'src/*.html'\n  ]\n});\n"
+      ]
+    },
+    "mtime": 1519329764000
+  },
+  "{\"filename\":\"/app/webpack.config.dev.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"transforms\":[{\"transform\":\"/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "html-webpack-plugin",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "HtmlWebpackPlugin"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/webpack.config.dev.js",
+      "filenameRelative": "/app/webpack.config.dev.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.dev.js",
+      "sourceFileName": "webpack.config.dev.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config.dev"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _htmlWebpackPlugin = require('html-webpack-plugin');\n\nvar _htmlWebpackPlugin2 = _interopRequireDefault(_htmlWebpackPlugin);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  resolve: {\n    extensions: ['*', '.js', '.jsx', '.json']\n  },\n  devtool: 'cheap-module-eval-source-map', // more info:https://webpack.js.org/guides/development/#using-source-maps and https://webpack.js.org/configuration/devtool/\n  entry: [\n  // must be first entry to properly set public path\n  './src/webpack-public-path', 'react-hot-loader/patch', 'webpack-hot-middleware/client?reload=true', _path2.default.resolve(__dirname, 'src/index.jsx') // Defining path seems necessary for this to work consistently on Windows machines.\n  ],\n  target: 'web',\n  output: {\n    path: _path2.default.resolve(__dirname, 'dist'), // Note: Physical files are only output by the production build task `npm run build`.\n    publicPath: '/',\n    filename: 'bundle.js'\n  },\n  plugins: [new _webpack2.default.DefinePlugin({\n    'process.env.NODE_ENV': JSON.stringify('development'), // Tells React to build in either dev or prod modes. https://facebook.github.io/react/downloads.html (See bottom)\n    __DEV__: true\n  }), new _webpack2.default.HotModuleReplacementPlugin(), new _webpack2.default.NoEmitOnErrorsPlugin(), new _htmlWebpackPlugin2.default({ // Create HTML file that includes references to bundled CSS and JS.\n    template: 'src/index.ejs',\n    minify: {\n      removeComments: true,\n      collapseWhitespace: true\n    },\n    inject: true\n  })],\n  module: {\n    rules: [{\n      test: /\\.jsx?$/,\n      exclude: /node_modules/,\n      use: ['babel-loader']\n    }, {\n      test: /\\.eot(\\?v=\\d+.\\d+.\\d+)?$/,\n      use: ['file-loader']\n    }, {\n      test: /\\.woff(2)?(\\?v=[0-9]\\.[0-9]\\.[0-9])?$/,\n      use: [{\n        loader: 'url-loader',\n        options: {\n          limit: 10000,\n          mimetype: 'application/font-woff'\n        }\n      }]\n    }, {\n      test: /\\.[ot]tf(\\?v=\\d+.\\d+.\\d+)?$/,\n      use: [{\n        loader: 'url-loader',\n        options: {\n          limit: 10000,\n          mimetype: 'application/octet-stream'\n        }\n      }]\n    }, {\n      test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/,\n      use: [{\n        loader: 'url-loader',\n        options: {\n          limit: 10000,\n          mimetype: 'image/svg+xml'\n        }\n      }]\n    }, {\n      test: /\\.(jpe?g|png|gif|ico)$/i,\n      use: [{\n        loader: 'file-loader',\n        options: {\n          name: '[name].[ext]'\n        }\n      }]\n    }, {\n      test: /(\\.css|\\.scss|\\.sass)$/,\n      exclude: /node_modules/,\n      use: ['style-loader', {\n        loader: 'css-loader',\n        options: {\n          sourceMap: true\n        }\n      }, {\n        loader: 'postcss-loader',\n        options: {\n          plugins: function plugins() {\n            return [require('autoprefixer')];\n          },\n          sourceMap: true\n        }\n      }, {\n        loader: 'sass-loader',\n        options: {\n          includePaths: [_path2.default.resolve(__dirname, 'src', 'scss')],\n          sourceMap: true\n        }\n      }]\n    }]\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLmRldi5qcyJdLCJuYW1lcyI6WyJyZXNvbHZlIiwiZXh0ZW5zaW9ucyIsImRldnRvb2wiLCJlbnRyeSIsIl9fZGlybmFtZSIsInRhcmdldCIsIm91dHB1dCIsInBhdGgiLCJwdWJsaWNQYXRoIiwiZmlsZW5hbWUiLCJwbHVnaW5zIiwiRGVmaW5lUGx1Z2luIiwiSlNPTiIsInN0cmluZ2lmeSIsIl9fREVWX18iLCJIb3RNb2R1bGVSZXBsYWNlbWVudFBsdWdpbiIsIk5vRW1pdE9uRXJyb3JzUGx1Z2luIiwidGVtcGxhdGUiLCJtaW5pZnkiLCJyZW1vdmVDb21tZW50cyIsImNvbGxhcHNlV2hpdGVzcGFjZSIsImluamVjdCIsIm1vZHVsZSIsInJ1bGVzIiwidGVzdCIsImV4Y2x1ZGUiLCJ1c2UiLCJsb2FkZXIiLCJvcHRpb25zIiwibGltaXQiLCJtaW1ldHlwZSIsIm5hbWUiLCJzb3VyY2VNYXAiLCJyZXF1aXJlIiwiaW5jbHVkZVBhdGhzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztrQkFFZTtBQUNiQSxXQUFTO0FBQ1BDLGdCQUFZLENBQUMsR0FBRCxFQUFNLEtBQU4sRUFBYSxNQUFiLEVBQXFCLE9BQXJCO0FBREwsR0FESTtBQUliQyxXQUFTLDhCQUpJLEVBSTRCO0FBQ3pDQyxTQUFPO0FBQ0w7QUFDQSw2QkFGSyxFQUdMLHdCQUhLLEVBSUwsMkNBSkssRUFLTCxlQUFLSCxPQUFMLENBQWFJLFNBQWIsRUFBd0IsZUFBeEIsQ0FMSyxDQUtvQztBQUxwQyxHQUxNO0FBWWJDLFVBQVEsS0FaSztBQWFiQyxVQUFRO0FBQ05DLFVBQU0sZUFBS1AsT0FBTCxDQUFhSSxTQUFiLEVBQXdCLE1BQXhCLENBREEsRUFDaUM7QUFDdkNJLGdCQUFZLEdBRk47QUFHTkMsY0FBVTtBQUhKLEdBYks7QUFrQmJDLFdBQVMsQ0FDUCxJQUFJLGtCQUFRQyxZQUFaLENBQXlCO0FBQ3ZCLDRCQUF3QkMsS0FBS0MsU0FBTCxDQUFlLGFBQWYsQ0FERCxFQUNnQztBQUN2REMsYUFBUztBQUZjLEdBQXpCLENBRE8sRUFLUCxJQUFJLGtCQUFRQywwQkFBWixFQUxPLEVBTVAsSUFBSSxrQkFBUUMsb0JBQVosRUFOTyxFQU9QLGdDQUFzQixFQUFNO0FBQzFCQyxjQUFVLGVBRFU7QUFFcEJDLFlBQVE7QUFDTkMsc0JBQWdCLElBRFY7QUFFTkMsMEJBQW9CO0FBRmQsS0FGWTtBQU1wQkMsWUFBUTtBQU5ZLEdBQXRCLENBUE8sQ0FsQkk7QUFrQ2JDLFVBQVE7QUFDTkMsV0FBTyxDQUNMO0FBQ0VDLFlBQU0sU0FEUjtBQUVFQyxlQUFTLGNBRlg7QUFHRUMsV0FBSyxDQUFDLGNBQUQ7QUFIUCxLQURLLEVBTUw7QUFDRUYsWUFBTSwwQkFEUjtBQUVFRSxXQUFLLENBQUMsYUFBRDtBQUZQLEtBTkssRUFVTDtBQUNFRixZQUFNLHVDQURSO0FBRUVFLFdBQUssQ0FDSDtBQUNFQyxnQkFBUSxZQURWO0FBRUVDLGlCQUFTO0FBQ1BDLGlCQUFPLEtBREE7QUFFUEMsb0JBQVU7QUFGSDtBQUZYLE9BREc7QUFGUCxLQVZLLEVBc0JMO0FBQ0VOLFlBQU0sNkJBRFI7QUFFRUUsV0FBSyxDQUNIO0FBQ0VDLGdCQUFRLFlBRFY7QUFFRUMsaUJBQVM7QUFDUEMsaUJBQU8sS0FEQTtBQUVQQyxvQkFBVTtBQUZIO0FBRlgsT0FERztBQUZQLEtBdEJLLEVBa0NMO0FBQ0VOLFlBQU0sNEJBRFI7QUFFRUUsV0FBSyxDQUNIO0FBQ0VDLGdCQUFRLFlBRFY7QUFFRUMsaUJBQVM7QUFDUEMsaUJBQU8sS0FEQTtBQUVQQyxvQkFBVTtBQUZIO0FBRlgsT0FERztBQUZQLEtBbENLLEVBOENMO0FBQ0VOLFlBQU0seUJBRFI7QUFFRUUsV0FBSyxDQUNIO0FBQ0VDLGdCQUFRLGFBRFY7QUFFRUMsaUJBQVM7QUFDUEcsZ0JBQU07QUFEQztBQUZYLE9BREc7QUFGUCxLQTlDSyxFQXlETDtBQUNFUCxZQUFNLHdCQURSO0FBRUVDLGVBQVMsY0FGWDtBQUdFQyxXQUFLLENBQ0gsY0FERyxFQUVIO0FBQ0VDLGdCQUFRLFlBRFY7QUFFRUMsaUJBQVM7QUFDUEkscUJBQVc7QUFESjtBQUZYLE9BRkcsRUFPQTtBQUNETCxnQkFBUSxnQkFEUDtBQUVEQyxpQkFBUztBQUNQbEIsbUJBQVM7QUFBQSxtQkFBTSxDQUNidUIsUUFBUSxjQUFSLENBRGEsQ0FBTjtBQUFBLFdBREY7QUFJUEQscUJBQVc7QUFKSjtBQUZSLE9BUEEsRUFlQTtBQUNETCxnQkFBUSxhQURQO0FBRURDLGlCQUFTO0FBQ1BNLHdCQUFjLENBQUMsZUFBS2xDLE9BQUwsQ0FBYUksU0FBYixFQUF3QixLQUF4QixFQUErQixNQUEvQixDQUFELENBRFA7QUFFUDRCLHFCQUFXO0FBRko7QUFGUixPQWZBO0FBSFAsS0F6REs7QUFERDtBQWxDSyxDIiwiZmlsZSI6IndlYnBhY2suY29uZmlnLmRldi5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHdlYnBhY2sgZnJvbSAnd2VicGFjayc7XG5pbXBvcnQgSHRtbFdlYnBhY2tQbHVnaW4gZnJvbSAnaHRtbC13ZWJwYWNrLXBsdWdpbic7XG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcblxuZXhwb3J0IGRlZmF1bHQge1xuICByZXNvbHZlOiB7XG4gICAgZXh0ZW5zaW9uczogWycqJywgJy5qcycsICcuanN4JywgJy5qc29uJ11cbiAgfSxcbiAgZGV2dG9vbDogJ2NoZWFwLW1vZHVsZS1ldmFsLXNvdXJjZS1tYXAnLCAvLyBtb3JlIGluZm86aHR0cHM6Ly93ZWJwYWNrLmpzLm9yZy9ndWlkZXMvZGV2ZWxvcG1lbnQvI3VzaW5nLXNvdXJjZS1tYXBzIGFuZCBodHRwczovL3dlYnBhY2suanMub3JnL2NvbmZpZ3VyYXRpb24vZGV2dG9vbC9cbiAgZW50cnk6IFtcbiAgICAvLyBtdXN0IGJlIGZpcnN0IGVudHJ5IHRvIHByb3Blcmx5IHNldCBwdWJsaWMgcGF0aFxuICAgICcuL3NyYy93ZWJwYWNrLXB1YmxpYy1wYXRoJyxcbiAgICAncmVhY3QtaG90LWxvYWRlci9wYXRjaCcsXG4gICAgJ3dlYnBhY2staG90LW1pZGRsZXdhcmUvY2xpZW50P3JlbG9hZD10cnVlJyxcbiAgICBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnc3JjL2luZGV4LmpzeCcpIC8vIERlZmluaW5nIHBhdGggc2VlbXMgbmVjZXNzYXJ5IGZvciB0aGlzIHRvIHdvcmsgY29uc2lzdGVudGx5IG9uIFdpbmRvd3MgbWFjaGluZXMuXG4gIF0sXG4gIHRhcmdldDogJ3dlYicsXG4gIG91dHB1dDoge1xuICAgIHBhdGg6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICdkaXN0JyksIC8vIE5vdGU6IFBoeXNpY2FsIGZpbGVzIGFyZSBvbmx5IG91dHB1dCBieSB0aGUgcHJvZHVjdGlvbiBidWlsZCB0YXNrIGBucG0gcnVuIGJ1aWxkYC5cbiAgICBwdWJsaWNQYXRoOiAnLycsXG4gICAgZmlsZW5hbWU6ICdidW5kbGUuanMnXG4gIH0sXG4gIHBsdWdpbnM6IFtcbiAgICBuZXcgd2VicGFjay5EZWZpbmVQbHVnaW4oe1xuICAgICAgJ3Byb2Nlc3MuZW52Lk5PREVfRU5WJzogSlNPTi5zdHJpbmdpZnkoJ2RldmVsb3BtZW50JyksIC8vIFRlbGxzIFJlYWN0IHRvIGJ1aWxkIGluIGVpdGhlciBkZXYgb3IgcHJvZCBtb2Rlcy4gaHR0cHM6Ly9mYWNlYm9vay5naXRodWIuaW8vcmVhY3QvZG93bmxvYWRzLmh0bWwgKFNlZSBib3R0b20pXG4gICAgICBfX0RFVl9fOiB0cnVlXG4gICAgfSksXG4gICAgbmV3IHdlYnBhY2suSG90TW9kdWxlUmVwbGFjZW1lbnRQbHVnaW4oKSxcbiAgICBuZXcgd2VicGFjay5Ob0VtaXRPbkVycm9yc1BsdWdpbigpLFxuICAgIG5ldyBIdG1sV2VicGFja1BsdWdpbih7ICAgICAvLyBDcmVhdGUgSFRNTCBmaWxlIHRoYXQgaW5jbHVkZXMgcmVmZXJlbmNlcyB0byBidW5kbGVkIENTUyBhbmQgSlMuXG4gICAgICB0ZW1wbGF0ZTogJ3NyYy9pbmRleC5lanMnLFxuICAgICAgbWluaWZ5OiB7XG4gICAgICAgIHJlbW92ZUNvbW1lbnRzOiB0cnVlLFxuICAgICAgICBjb2xsYXBzZVdoaXRlc3BhY2U6IHRydWVcbiAgICAgIH0sXG4gICAgICBpbmplY3Q6IHRydWVcbiAgICB9KVxuICBdLFxuICBtb2R1bGU6IHtcbiAgICBydWxlczogW1xuICAgICAge1xuICAgICAgICB0ZXN0OiAvXFwuanN4PyQvLFxuICAgICAgICBleGNsdWRlOiAvbm9kZV9tb2R1bGVzLyxcbiAgICAgICAgdXNlOiBbJ2JhYmVsLWxvYWRlciddXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICB0ZXN0OiAvXFwuZW90KFxcP3Y9XFxkKy5cXGQrLlxcZCspPyQvLFxuICAgICAgICB1c2U6IFsnZmlsZS1sb2FkZXInXVxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgdGVzdDogL1xcLndvZmYoMik/KFxcP3Y9WzAtOV1cXC5bMC05XVxcLlswLTldKT8kLyxcbiAgICAgICAgdXNlOiBbXG4gICAgICAgICAge1xuICAgICAgICAgICAgbG9hZGVyOiAndXJsLWxvYWRlcicsXG4gICAgICAgICAgICBvcHRpb25zOiB7XG4gICAgICAgICAgICAgIGxpbWl0OiAxMDAwMCxcbiAgICAgICAgICAgICAgbWltZXR5cGU6ICdhcHBsaWNhdGlvbi9mb250LXdvZmYnXG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuICAgICAgICBdXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICB0ZXN0OiAvXFwuW290XXRmKFxcP3Y9XFxkKy5cXGQrLlxcZCspPyQvLFxuICAgICAgICB1c2U6IFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBsb2FkZXI6ICd1cmwtbG9hZGVyJyxcbiAgICAgICAgICAgIG9wdGlvbnM6IHtcbiAgICAgICAgICAgICAgbGltaXQ6IDEwMDAwLFxuICAgICAgICAgICAgICBtaW1ldHlwZTogJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSdcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgIF1cbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHRlc3Q6IC9cXC5zdmcoXFw/dj1cXGQrXFwuXFxkK1xcLlxcZCspPyQvLFxuICAgICAgICB1c2U6IFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBsb2FkZXI6ICd1cmwtbG9hZGVyJyxcbiAgICAgICAgICAgIG9wdGlvbnM6IHtcbiAgICAgICAgICAgICAgbGltaXQ6IDEwMDAwLFxuICAgICAgICAgICAgICBtaW1ldHlwZTogJ2ltYWdlL3N2Zyt4bWwnXG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuICAgICAgICBdXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICB0ZXN0OiAvXFwuKGpwZT9nfHBuZ3xnaWZ8aWNvKSQvaSxcbiAgICAgICAgdXNlOiBbXG4gICAgICAgICAge1xuICAgICAgICAgICAgbG9hZGVyOiAnZmlsZS1sb2FkZXInLFxuICAgICAgICAgICAgb3B0aW9uczoge1xuICAgICAgICAgICAgICBuYW1lOiAnW25hbWVdLltleHRdJ1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgXVxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgdGVzdDogLyhcXC5jc3N8XFwuc2Nzc3xcXC5zYXNzKSQvLFxuICAgICAgICBleGNsdWRlOiAvbm9kZV9tb2R1bGVzLyxcbiAgICAgICAgdXNlOiBbXG4gICAgICAgICAgJ3N0eWxlLWxvYWRlcicsXG4gICAgICAgICAge1xuICAgICAgICAgICAgbG9hZGVyOiAnY3NzLWxvYWRlcicsXG4gICAgICAgICAgICBvcHRpb25zOiB7XG4gICAgICAgICAgICAgIHNvdXJjZU1hcDogdHJ1ZVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH0sIHtcbiAgICAgICAgICAgIGxvYWRlcjogJ3Bvc3Rjc3MtbG9hZGVyJyxcbiAgICAgICAgICAgIG9wdGlvbnM6IHtcbiAgICAgICAgICAgICAgcGx1Z2luczogKCkgPT4gW1xuICAgICAgICAgICAgICAgIHJlcXVpcmUoJ2F1dG9wcmVmaXhlcicpXG4gICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgIHNvdXJjZU1hcDogdHJ1ZVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH0sIHtcbiAgICAgICAgICAgIGxvYWRlcjogJ3Nhc3MtbG9hZGVyJyxcbiAgICAgICAgICAgIG9wdGlvbnM6IHtcbiAgICAgICAgICAgICAgaW5jbHVkZVBhdGhzOiBbcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJ3NyYycsICdzY3NzJyldLFxuICAgICAgICAgICAgICBzb3VyY2VNYXA6IHRydWVcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgIF1cbiAgICAgIH1cbiAgICBdXG4gIH1cbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.dev.js"
+      ],
+      "names": [
+        "resolve",
+        "extensions",
+        "devtool",
+        "entry",
+        "__dirname",
+        "target",
+        "output",
+        "path",
+        "publicPath",
+        "filename",
+        "plugins",
+        "DefinePlugin",
+        "JSON",
+        "stringify",
+        "__DEV__",
+        "HotModuleReplacementPlugin",
+        "NoEmitOnErrorsPlugin",
+        "template",
+        "minify",
+        "removeComments",
+        "collapseWhitespace",
+        "inject",
+        "module",
+        "rules",
+        "test",
+        "exclude",
+        "use",
+        "loader",
+        "options",
+        "limit",
+        "mimetype",
+        "name",
+        "sourceMap",
+        "require",
+        "includePaths"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;AACA;;;;;;kBAEe;AACbA,WAAS;AACPC,gBAAY,CAAC,GAAD,EAAM,KAAN,EAAa,MAAb,EAAqB,OAArB;AADL,GADI;AAIbC,WAAS,8BAJI,EAI4B;AACzCC,SAAO;AACL;AACA,6BAFK,EAGL,wBAHK,EAIL,2CAJK,EAKL,eAAKH,OAAL,CAAaI,SAAb,EAAwB,eAAxB,CALK,CAKoC;AALpC,GALM;AAYbC,UAAQ,KAZK;AAabC,UAAQ;AACNC,UAAM,eAAKP,OAAL,CAAaI,SAAb,EAAwB,MAAxB,CADA,EACiC;AACvCI,gBAAY,GAFN;AAGNC,cAAU;AAHJ,GAbK;AAkBbC,WAAS,CACP,IAAI,kBAAQC,YAAZ,CAAyB;AACvB,4BAAwBC,KAAKC,SAAL,CAAe,aAAf,CADD,EACgC;AACvDC,aAAS;AAFc,GAAzB,CADO,EAKP,IAAI,kBAAQC,0BAAZ,EALO,EAMP,IAAI,kBAAQC,oBAAZ,EANO,EAOP,gCAAsB,EAAM;AAC1BC,cAAU,eADU;AAEpBC,YAAQ;AACNC,sBAAgB,IADV;AAENC,0BAAoB;AAFd,KAFY;AAMpBC,YAAQ;AANY,GAAtB,CAPO,CAlBI;AAkCbC,UAAQ;AACNC,WAAO,CACL;AACEC,YAAM,SADR;AAEEC,eAAS,cAFX;AAGEC,WAAK,CAAC,cAAD;AAHP,KADK,EAML;AACEF,YAAM,0BADR;AAEEE,WAAK,CAAC,aAAD;AAFP,KANK,EAUL;AACEF,YAAM,uCADR;AAEEE,WAAK,CACH;AACEC,gBAAQ,YADV;AAEEC,iBAAS;AACPC,iBAAO,KADA;AAEPC,oBAAU;AAFH;AAFX,OADG;AAFP,KAVK,EAsBL;AACEN,YAAM,6BADR;AAEEE,WAAK,CACH;AACEC,gBAAQ,YADV;AAEEC,iBAAS;AACPC,iBAAO,KADA;AAEPC,oBAAU;AAFH;AAFX,OADG;AAFP,KAtBK,EAkCL;AACEN,YAAM,4BADR;AAEEE,WAAK,CACH;AACEC,gBAAQ,YADV;AAEEC,iBAAS;AACPC,iBAAO,KADA;AAEPC,oBAAU;AAFH;AAFX,OADG;AAFP,KAlCK,EA8CL;AACEN,YAAM,yBADR;AAEEE,WAAK,CACH;AACEC,gBAAQ,aADV;AAEEC,iBAAS;AACPG,gBAAM;AADC;AAFX,OADG;AAFP,KA9CK,EAyDL;AACEP,YAAM,wBADR;AAEEC,eAAS,cAFX;AAGEC,WAAK,CACH,cADG,EAEH;AACEC,gBAAQ,YADV;AAEEC,iBAAS;AACPI,qBAAW;AADJ;AAFX,OAFG,EAOA;AACDL,gBAAQ,gBADP;AAEDC,iBAAS;AACPlB,mBAAS;AAAA,mBAAM,CACbuB,QAAQ,cAAR,CADa,CAAN;AAAA,WADF;AAIPD,qBAAW;AAJJ;AAFR,OAPA,EAeA;AACDL,gBAAQ,aADP;AAEDC,iBAAS;AACPM,wBAAc,CAAC,eAAKlC,OAAL,CAAaI,SAAb,EAAwB,KAAxB,EAA+B,MAA/B,CAAD,CADP;AAEP4B,qBAAW;AAFJ;AAFR,OAfA;AAHP,KAzDK;AADD;AAlCK,C",
+      "file": "webpack.config.dev.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import webpack from 'webpack';\nimport HtmlWebpackPlugin from 'html-webpack-plugin';\nimport path from 'path';\n\nexport default {\n  resolve: {\n    extensions: ['*', '.js', '.jsx', '.json']\n  },\n  devtool: 'cheap-module-eval-source-map', // more info:https://webpack.js.org/guides/development/#using-source-maps and https://webpack.js.org/configuration/devtool/\n  entry: [\n    // must be first entry to properly set public path\n    './src/webpack-public-path',\n    'react-hot-loader/patch',\n    'webpack-hot-middleware/client?reload=true',\n    path.resolve(__dirname, 'src/index.jsx') // Defining path seems necessary for this to work consistently on Windows machines.\n  ],\n  target: 'web',\n  output: {\n    path: path.resolve(__dirname, 'dist'), // Note: Physical files are only output by the production build task `npm run build`.\n    publicPath: '/',\n    filename: 'bundle.js'\n  },\n  plugins: [\n    new webpack.DefinePlugin({\n      'process.env.NODE_ENV': JSON.stringify('development'), // Tells React to build in either dev or prod modes. https://facebook.github.io/react/downloads.html (See bottom)\n      __DEV__: true\n    }),\n    new webpack.HotModuleReplacementPlugin(),\n    new webpack.NoEmitOnErrorsPlugin(),\n    new HtmlWebpackPlugin({     // Create HTML file that includes references to bundled CSS and JS.\n      template: 'src/index.ejs',\n      minify: {\n        removeComments: true,\n        collapseWhitespace: true\n      },\n      inject: true\n    })\n  ],\n  module: {\n    rules: [\n      {\n        test: /\\.jsx?$/,\n        exclude: /node_modules/,\n        use: ['babel-loader']\n      },\n      {\n        test: /\\.eot(\\?v=\\d+.\\d+.\\d+)?$/,\n        use: ['file-loader']\n      },\n      {\n        test: /\\.woff(2)?(\\?v=[0-9]\\.[0-9]\\.[0-9])?$/,\n        use: [\n          {\n            loader: 'url-loader',\n            options: {\n              limit: 10000,\n              mimetype: 'application/font-woff'\n            }\n          }\n        ]\n      },\n      {\n        test: /\\.[ot]tf(\\?v=\\d+.\\d+.\\d+)?$/,\n        use: [\n          {\n            loader: 'url-loader',\n            options: {\n              limit: 10000,\n              mimetype: 'application/octet-stream'\n            }\n          }\n        ]\n      },\n      {\n        test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/,\n        use: [\n          {\n            loader: 'url-loader',\n            options: {\n              limit: 10000,\n              mimetype: 'image/svg+xml'\n            }\n          }\n        ]\n      },\n      {\n        test: /\\.(jpe?g|png|gif|ico)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              name: '[name].[ext]'\n            }\n          }\n        ]\n      },\n      {\n        test: /(\\.css|\\.scss|\\.sass)$/,\n        exclude: /node_modules/,\n        use: [\n          'style-loader',\n          {\n            loader: 'css-loader',\n            options: {\n              sourceMap: true\n            }\n          }, {\n            loader: 'postcss-loader',\n            options: {\n              plugins: () => [\n                require('autoprefixer')\n              ],\n              sourceMap: true\n            }\n          }, {\n            loader: 'sass-loader',\n            options: {\n              includePaths: [path.resolve(__dirname, 'src', 'scss')],\n              sourceMap: true\n            }\n          }\n        ]\n      }\n    ]\n  }\n};\n"
+      ]
+    },
+    "mtime": 1519329764000
+  }
+}
