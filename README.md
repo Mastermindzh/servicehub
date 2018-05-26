@@ -2,7 +2,7 @@
 
 Simple little app which is easy to configure, shows services in a neat grid-formation and lets you know whether they are available.
 
-Docker image: https://hub.docker.com/r/mastermindzh/servicehub/
+Docker image: https://hub.docker.com/r/mastermindzh/servicehub/  
 Demo: https://mastermindzh.github.io/servicehub/
 
 ## Example image
